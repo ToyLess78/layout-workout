@@ -216,36 +216,28 @@ section {
     font-size: 0.9rem;
 }
 
+/* Hero Feature Tags - Updated Positioning */
 .hero__feature-tag {
     position: absolute;
-    bottom: 80px;
-    left: -20px;
-    background-color: var(--color-dark-blue-gray);
     color: var(--color-white);
     padding: 12px 16px;
     border-radius: var(--border-radius);
     display: flex;
     align-items: center;
     gap: 12px;
+    z-index: 10;
+}
+
+.hero__feature-tag--dark {
+    bottom: 80px;
+    background-color: var(--color-dark-blue-gray);
+    left: -20px;
 }
 
 .hero__feature-tag--purple {
     background-color: var(--color-purple);
     bottom: 20px;
-}
-
-.hero__feature-text {
-    display: flex;
-    flex-direction: column;
-}
-
-.hero__feature-number {
-    font-weight: 700;
-    font-size: 1.2rem;
-}
-
-.hero__feature-desc {
-    font-size: 0.8rem;
+    right: -20px;
 }
 
 /* Featured Section */
@@ -630,8 +622,9 @@ section {
         right: 0;
     }
 
-    .hero__feature-tag {
-        left: 0;
+
+    .hero__feature-tag .hero__feature-tag--purple {
+        right: 0;
     }
 
     .featured__logos {
