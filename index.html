@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout With Me</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">WORKOUT</div>
+        <nav class="header__nav">
+            <ul class="header__menu">
+                <li class="header__menu-item"><a href="#" class="header__menu-link">WORKOUTS</a></li>
+                <li class="header__menu-item"><a href="#" class="header__menu-link">PROGRAMS</a></li>
+                <li class="header__menu-item"><a href="#" class="header__menu-link">HEALTHY LIVING</a></li>
+                <li class="header__menu-item"><a href="#" class="header__menu-link">COMMUNITY</a></li>
+                <li class="header__menu-item"><a href="#" class="header__menu-link">ABOUT</a></li>
+                <li class="header__menu-item"><a href="#" class="header__menu-link">STORE</a></li>
+            </ul>
+        </nav>
+        <button class="header__mobile-toggle" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero__content">
+                    <h1 class="hero__title">WORKOUT<br>WITH ME</h1>
+                    <p class="hero__description">A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit.</p>
+                    <a href="#" class="button button--primary">Join Club Now!</a>
+                </div>
+                <div class="hero__image-container">
+                    <img src="/img/person-working-out.png" alt="Person working out" class="hero__image">
+                    <div class="hero__price-tag">
+                        <span class="hero__price">4,95</span>
+                        <span class="hero__price-period">/month</span>
+                    </div>
+                    <div class="hero__feature-tag">
+                        <div class="hero__feature-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21 12L9 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M15 18L9 12L15 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="hero__feature-text">
+                            <span class="hero__feature-number">350+</span>
+                            <span class="hero__feature-desc">Video tutorials</span>
+                        </div>
+                    </div>
+                    <div class="hero__feature-tag hero__feature-tag--purple">
+                        <div class="hero__feature-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21 12L9 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M15 18L9 12L15 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="hero__feature-text">
+                            <span class="hero__feature-number">500+</span>
+                            <span class="hero__feature-desc">Healthy recipes</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured In Section -->
+        <section class="featured">
+            <div class="container">
+                <p class="featured__title">AS FEATURED IN</p>
+                <div class="featured__logos">
+                    <img src="/img/nike.svg?height=30&width=60" alt="Nike" class="featured__logo">
+                    <img src="/img/buzz-feed.svg?height=30&width=100" alt="BuzzFeed" class="featured__logo">
+                    <img src="/img/esprit.svg?height=30&width=80" alt="Esprit" class="featured__logo">
+                    <img src="/img/cnn.svg?height=30&width=70" alt="CNN" class="featured__logo">
+                    <img src="/img/huffpost.svg?height=30&width=120" alt="Huffpost" class="featured__logo">
+                </div>
+            </div>
+        </section>
+
+        <!-- Getting Started Section -->
+        <section class="getting-started">
+            <div class="container">
+                <h2 class="getting-started__title">Not sure where to start?</h2>
+                <p class="getting-started__description">Progress with day-by-day guidance on an interactive calendar to keep you on track.</p>
+
+                <div class="cards">
+                    <div class="card">
+                        <div class="card__content">
+                            <h3 class="card__title">Workout Videos</h3>
+                            <p class="card__description">Access to hundreds of free full-length workout videos.</p>
+                        </div>
+                        <div class="card__arrow">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 12H19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 5L19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__content">
+                            <h3 class="card__title">Workout Programs</h3>
+                            <p class="card__description">Affordable and effective workout programs.</p>
+                        </div>
+                        <div class="card__arrow">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 12H19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 5L19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__content">
+                            <h3 class="card__title">Meal Plans</h3>
+                            <p class="card__description">Plans built with registered dietitians and nutritionists.</p>
+                        </div>
+                        <div class="card__arrow">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 12H19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 5L19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__content">
+                            <h3 class="card__title">WO Plus ALL ACCESS</h3>
+                            <p class="card__description">Add powerful features to your membership.</p>
+                        </div>
+                        <div class="card__arrow">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 12H19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 5L19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Free Workout Section -->
+        <section class="free-workout">
+            <div class="container">
+                <div class="free-workout__content">
+                    <h2 class="free-workout__title">Work out at home for free.</h2>
+                    <p class="free-workout__description">
+                        We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts, healthy recipes and informative articles, as well as one of the most positive communities on the web, you'll have everything you need to reach your personal fitness goals – for free!
+                    </p>
+                    <a href="#" class="link">See More <span class="link__arrow">→</span></a>
+                </div>
+                <div class="free-workout__image">
+                    <img src="/img/doing-yoga.png" alt="Woman doing yoga with laptop" class="free-workout__img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Premium Section -->
+        <section class="premium">
+            <div class="container">
+                <div class="premium__image">
+                    <img src="/img/working-out.png" alt="Woman working out" class="premium__img">
+                </div>
+                <div class="premium__content">
+                    <h2 class="premium__title">Get more with low-cost training programs and advanced features.</h2>
+                    <p class="premium__description">
+                        We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts, healthy recipes and informative articles, as well as one of the most positive communities on the web, you'll have everything you need to reach your personal fitness goals – for free!
+                    </p>
+                    <a href="#" class="link">See More <span class="link__arrow">→</span></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Membership Section -->
+        <section class="membership">
+            <div class="container">
+                <h2 class="membership__title">Membership</h2>
+
+                <div class="plans">
+                    <div class="plan">
+                        <div class="plan__header">
+                            <h3 class="plan__title">Join for Free</h3>
+                        </div>
+                        <div class="plan__content">
+                            <p class="plan__description">
+                                Reach your fitness goals or maintain a healthy lifestyle with professional training and support from a positive and active online community.
+                            </p>
+                            <ul class="plan__features">
+                                <li class="plan__feature">+600 Full-Length Workout Videos</li>
+                                <li class="plan__feature">Customizable Calendar</li>
+                                <li class="plan__feature">Healthy Recipes</li>
+                                <li class="plan__feature">Health and Fitness Articles</li>
+                                <li class="plan__feature">Positive and Supportive Online Community</li>
+                                <li class="plan__feature">No Credit Card Needed</li>
+                            </ul>
+                            <a href="#" class="link plan__link">See More <span class="link__arrow">→</span></a>
+                        </div>
+                    </div>
+
+                    <div class="plan plan--premium">
+                        <div class="plan__header">
+                            <h3 class="plan__title">WO Plus</h3>
+                        </div>
+                        <div class="plan__content">
+                            <p class="plan__description">
+                                WO Plus includes everything you get with a free membership and adds brand new convenience features, fitness tools, and support.
+                            </p>
+                            <ul class="plan__features">
+                                <li class="plan__feature">Ad-Free Website and Videos</li>
+                                <li class="plan__feature">Surprise Me Workout Selection Tool</li>
+                                <li class="plan__feature">Statistics for Your Activities</li>
+                                <li class="plan__feature">Enter and Track Custom Workouts</li>
+                                <li class="plan__feature">Wellness and Nutrition Trackers</li>
+                                <li class="plan__feature">Trackers to See Your Progress</li>
+                                <li class="plan__feature">FB Plus Content and Challenges</li>
+                                <li class="plan__feature">Exclusive Recipes</li>
+                                <li class="plan__feature">FB Plus Routines</li>
+                                <li class="plan__feature">Rest Day Complete</li>
+                            </ul>
+                            <a href="#" class="button button--primary plan__button">Join Club Now!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <a href="#" class="back-to-top">Back to Top <span class="back-to-top__arrow">↑</span></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
